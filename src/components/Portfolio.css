@@ -1,0 +1,47 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* justify-content: space-around; */
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+
+}
+.grid-container a:hover {
+    text-decoration: none;
+    color: #c8c8c8
+}
+.grid-item{
+    background: rgb(54, 54, 54);
+    color: #c8c8c8
+}
+.grid-item h4{
+    color: #ffffff
+}
+.grid-item .tools{
+    color: #e97171;
+    font-weight: bold;
+    font-size: 18px;
+}
+.more-btn{
+    background: rgb(54, 54, 54); 
+}
+.more-btn:hover{
+    background: rgb(54, 54, 54); 
+}
+
+@media screen and (max-width: 992px) {
+    .grid-container {
+         grid-template-columns: 1fr 1fr 1fr;
+      }
+}
+@media screen and (max-width: 768px) {
+    .grid-container {
+         grid-template-columns: 1fr 1fr;
+      }
+}
+@media screen and (max-width: 500px) {
+    .grid-container {
+         grid-template-columns: 1fr;
+      }
+}
+

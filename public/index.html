@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.7.0/build/reset-fonts-grids/reset-fonts-grids.css" media="all" />
+
+    <title>Riaz's Website</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- animation section starts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script>
+      $(document).ready(function() {
+
+        $(".animation-about-1").waypoint(function(direction) {
+          $(".animation-about-1").addClass("fadeInUp")
+        }, {
+          offset: "50%"
+        })
+        $(".animation-about-2").waypoint(function(direction) {
+          $(".animation-about-2").addClass("fadeInUp")
+        }, {
+          offset: "80%"
+        })
+        $(".animation-services-1").waypoint(function(direction) {
+          $(".animation-services-1").addClass("fadeInUp")
+        }, {
+          offset: "50%"
+        })
+        $(".animation-portfolio-1").waypoint(function(direction) {
+          $(".animation-portfolio-1").addClass("fadeInUp")
+        }, {
+          offset: "50%"
+        })
+        $(".animation-conatct-1").waypoint(function(direction) {
+          $(".animation-conatct-1").addClass("fadeInUp")
+        }, {
+          offset: "50%"
+        })
+        $(".animation-conatct-2").waypoint(function(direction) {
+          $(".animation-conatct-2").addClass("fadeInLeft")
+        }, {
+          offset: "80%"
+        })
+        $(".animation-conatct-3").waypoint(function(direction) {
+          $(".animation-conatct-3").addClass("fadeInRight")
+        }, {
+          offset: "80%"
+        })
+        $(".animation-conatct-4").waypoint(function(direction) {
+          $(".animation-conatct-4").addClass("fadeInLeft")
+        }, {
+          offset: "100%"
+        })
+      })
+    </script>
+    <!-- animation section ends -->
+  </body>
+</html>
